@@ -10,19 +10,21 @@ This image is for the real-time Redis monitoring tool [redis-stat](https://githu
 
 ## How to use this image?
 
-1. Show the redis stats from a redis docker container
+### Show the redis stats from a redis docker container
 
 ```console
 $ docker run --name redis-stat --link some-redis:redis -d -p 8080:63790 insready/redis-stat --server redis
 ```
 
-2. Show the redis stats from a remote redis server
+
+### Show the redis stats from a remote redis server
 
 ```console
 $ docker run --name redis-stat -d -p 8080:63790 insready/redis-stat --server 123.123.123.123
 ```
 
-3. Show the redis stats from multiple servers
+
+### Show the redis stats from multiple servers
 
 ```console
 $ docker run --name redis-stat -d -p 8080:63790 insready/redis-stat --server 111.111.111.111 222.222.222.222:63790 123.123.123.123
