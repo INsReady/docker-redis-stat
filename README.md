@@ -2,7 +2,7 @@
 
 -	[`latest` (*Dockerfile*)](https://github.com/INsReady/docker-redis-stat/blob/master/Dockerfile)
 
-This image is updated via pull requests to [the `INsReady/docker-polymer-dev` GitHub repo](https://github.com/INsReady/docker-redis-stat).
+This image is updated via pull requests to [the `INsReady/docker-redis-stat` GitHub repo](https://github.com/INsReady/docker-redis-stat).
 
 ## What is image for?
 This image is for the real-time Redis monitoring tool [redis-stat](https://github.com/junegunn/redis-stat).
